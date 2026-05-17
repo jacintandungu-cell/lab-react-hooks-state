@@ -51,6 +51,7 @@ const App = () => {
         <label htmlFor="category-filter">Filter by Category: </label>
         <select
           id="category-filter"
+          aria-label="Filter by Category"
           value={selectedCategory}
           onChange={handleCategoryChange}
         >
